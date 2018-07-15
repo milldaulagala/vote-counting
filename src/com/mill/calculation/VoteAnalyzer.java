@@ -26,7 +26,7 @@ public class VoteAnalyzer {
     private int runningCandidates;
     private int rounds;
     private List<Candidate> winners;
-    private PriorityQueue<Candidate> haveSurplus;
+    private PriorityQueue<Candidate> extraVotes;
 
     public static MathContext mc = new MathContext(3, RoundingMode.DOWN);
 
@@ -36,7 +36,7 @@ public class VoteAnalyzer {
         this.runningCandidates = clash.getCandidates().size();
         rounds = -1;
         winners = new ArrayList<>(clash.getSeats());
-        haveSurplus = new PriorityQueue<>();
+        extraVotes = new PriorityQueue<>();
     }
 
     public List<Candidate> calculateWinners() {
@@ -44,8 +44,8 @@ public class VoteAnalyzer {
         quota = calculateQuota(totalVotes, clash.getSeats());
         checkForWinners();
         while (remainingSeats > 0) {
-            while (!haveSurplus.isEmpty()) {
-                distributeSurplus(haveSurplus, quota);
+            while (!extraVotes.isEmpty()) {
+                distributeSurplus(extraVotes, quota);
                 checkForWinners();
             }
             eliminateLastPlace(clash.getCandidates(), rounds);
@@ -67,7 +67,7 @@ public class VoteAnalyzer {
         for (Candidate c : newWinners) {
             c.notRunning();
         }
-        haveSurplus.addAll(getSurplusWinners(newWinners, quota));
+        extraVotes.addAll(getSurplusWinners(newWinners, quota));
         pushRoundVoteTotals();
     }
 

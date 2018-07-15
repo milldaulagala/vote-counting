@@ -11,14 +11,14 @@ import static com.mill.calculation.VoteAnalyzer.mc;
 
 public class VoteTransferer {
 
-    public static void distributeSurplus(PriorityQueue<Candidate> haveSurplus, BigDecimal quota) {
-        Candidate hasLargestSurplus = haveSurplus.poll();
-        BigDecimal totalVotes = hasLargestSurplus.getVoteTotal();
+    public static void distributeSurplus(PriorityQueue<Candidate> extraVotes, BigDecimal quota) {
+        Candidate hasLargestExtra = extraVotes.poll();
+        BigDecimal totalVotes = hasLargestExtra.getVoteTotal();
         BigDecimal surplus = totalVotes.subtract(quota, mc);
         BigDecimal transferValue = surplus.divide(totalVotes, mc);
-        for (Ballot b : hasLargestSurplus.getVotes()) {
+        for (Ballot b : hasLargestExtra.getVotes()) {
             b.setValue(transferValue.multiply(b.getValue(), mc));
-            transferVotes(hasLargestSurplus, b);
+            transferVotes(hasLargestExtra, b);
         }
     }
 
@@ -31,13 +31,13 @@ public class VoteTransferer {
     }
 
     public static List<Candidate> getSurplusWinners(List<Candidate> candidates, BigDecimal quota) {
-        List<Candidate> haveSurplus = new ArrayList<>();
+        List<Candidate> extraVotes = new ArrayList<>();
         for (Candidate c : candidates) {
             if (c.getVoteTotal().compareTo(quota) > 0) {
-                haveSurplus.add(c);
+                extraVotes.add(c);
             }
         }
-        return haveSurplus;
+        return extraVotes;
     }
 
     private static Candidate getNextEligiblePreferred(Ballot ballot) {
