@@ -11,13 +11,22 @@ import java.util.concurrent.ThreadLocalRandom;
 import static com.mill.calculation.VoteAnalyzer.mc;
 import static com.mill.calculation.VoteTransferer.transferVotes;
 
+/**
+ * This class - Eliminate the candidate who has least number of votes.
+ */
+
 public class CandidateEliminator {
 
     public static void eliminateLastPlace(List<Candidate> candidates, int rounds) {
         int roundsAgo = 0;
         List<Candidate> lastPlaceList = getLastPlace(candidates, roundsAgo);
         while (lastPlaceList.size() > 1) {
-            //Tied for last
+
+
+            /**
+             * If there is a tie between two or more leading candidates and there are no other candidates that
+             * can be eliminated, one candidate should be chosen at random for elimination.
+             */
             if (roundsAgo >= rounds) {
                 eliminateRandomCandidate(lastPlaceList);
                 return;

@@ -18,6 +18,11 @@ import static com.mill.calculation.VoteTransferer.distributeSurplus;
 import static com.mill.calculation.VoteTransferer.getSurplusWinners;
 import static com.mill.calculation.FindWinner.getWinners;
 
+
+/**
+ * This class - Analyze the vote and select the winner.
+ */
+
 public class VoteAnalyzer {
 
     private Clash clash;

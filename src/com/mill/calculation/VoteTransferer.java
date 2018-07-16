@@ -9,6 +9,10 @@ import java.util.PriorityQueue;
 
 import static com.mill.calculation.VoteAnalyzer.mc;
 
+/**
+ * This class - Transfer the votes to the next preferred candidate.
+ */
+
 public class VoteTransferer {
 
     public static void distributeSurplus(PriorityQueue<Candidate> extraVotes, BigDecimal quota) {

@@ -27,7 +27,7 @@ public class ReadFileToListSample {
         printCandidates();
         arrangeVoteStructure();
         outputVotes();
-        System.out.println("tally");
+        System.out.println("Please enter the vote preference as a sequence: > ");
     }
 
     /**
@@ -79,6 +79,11 @@ public class ReadFileToListSample {
         }
     }
 
+    /**
+     * This method print vote preference for each candidate
+     * Please Enter Capital letters corresponding to the candidate followed by second, third, forth choice.
+     * Please don't keep a space after the last choice.
+     */
     private static void outputVotes() {
         Iterator<Map.Entry<Character, ArrayList>> it = candidateVotes.entrySet().iterator();
 
@@ -88,7 +93,7 @@ public class ReadFileToListSample {
             System.out.println(next.getKey() +"->"+
                     Integer.parseInt(next.getValue().toString().replace("[","").replace("]","")));
         }
-    }//get key
+    }
 
     private static void printCandidates(){
         Iterator<Map.Entry<Character, String>> it = candidateNames.entrySet().iterator();

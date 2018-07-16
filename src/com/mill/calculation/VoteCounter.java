@@ -3,6 +3,12 @@ package com.mill.calculation;
 import com.mill.election.Ballot;
 import java.util.List;
 
+
+/**
+ * This class - Count the votes.
+ */
+
+
 public class VoteCounter {
 
     public static int countFirstChoiceVotes(List<Ballot> ballots) {
