@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e872e376-4540-4e22-b61d-5a8146d7bb17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/FindWinnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/VoteTransfererTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/FindWinnerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/VoteTransfererTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ballet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ballet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/CandidateEliminator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/CandidateEliminator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/FindWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/FindWinner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/QuotaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/QuotaCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/VoteCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/VoteCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mill/election/Ballot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mill/election/Ballot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ReadFileToListSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ReadFileToListSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mill/election/Ballot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mill/election/Ballot.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VoteTransferer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java">
+      <file leaf-file-name="Ballot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mill/election/Ballot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,23 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VoteCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteCounter.java">
+      <file leaf-file-name="ReadFileToListSample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/ReadFileToListSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoteAnalyzer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="-85">
+              <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +66,6 @@
         <option value="$PROJECT_DIR$/src/test/VoteCounterTest.java" />
         <option value="$PROJECT_DIR$/src/test/FindWinnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/VoteTransfererTest.java" />
-        <option value="$PROJECT_DIR$/src/main/ReadFileToListSample.java" />
         <option value="$PROJECT_DIR$/src/com/mill/election/Ballot.java" />
         <option value="$PROJECT_DIR$/src/com/mill/calculation/VoteCounter.java" />
         <option value="$PROJECT_DIR$/src/com/mill/calculation/CandidateEliminator.java" />
@@ -100,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/com/mill/calculation/QuotaCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java" />
         <option value="$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/ReadFileToListSample.java" />
       </list>
     </option>
   </component>
@@ -110,9 +84,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1389" />
-    <option name="height" value="877" />
+    <option name="x" value="45" />
+    <option name="y" value="38" />
+    <option name="width" value="1292" />
+    <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,8 +97,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,8 +330,8 @@
       <list>
         <item itemvalue="Application.ReadFileToListSample" />
         <item itemvalue="JUnit.VoteTransfererTest" />
-        <item itemvalue="JUnit.FindWinnerTest" />
         <item itemvalue="JUnit.VoteCounterTest" />
+        <item itemvalue="JUnit.FindWinnerTest" />
         <item itemvalue="JUnit.QuotaCalculatorTest" />
       </list>
     </recent_temporary>
@@ -375,24 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuotaCalculatorTest - 2018.07.16 at 20h 00m 41s.xml">
-      <configuration name="QuotaCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VoteCounterTest - 2018.07.16 at 20h 11m 29s.xml">
-      <configuration name="VoteCounterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VoteCounterTest - 2018.07.16 at 20h 15m 04s.xml">
-      <configuration name="VoteCounterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindWinnerTest - 2018.07.16 at 20h 29m 25s.xml">
-      <configuration name="FindWinnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindWinnerTest - 2018.07.16 at 20h 32m 06s.xml">
-      <configuration name="FindWinnerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindWinnerTest - 2018.07.16 at 20h 39m 54s.xml">
-      <configuration name="FindWinnerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VoteTransfererTest - 2018.07.16 at 20h 50m 35s.xml">
       <configuration name="VoteTransfererTest" configurationId="JUnit" />
     </history-entry>
@@ -405,9 +362,27 @@
     <history-entry file="VoteTransfererTest - 2018.07.16 at 20h 57m 36s.xml">
       <configuration name="VoteTransfererTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VoteCounterTest - 2018.07.16 at 22h 12m 28s.xml">
+      <configuration name="VoteCounterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoteCounterTest - 2018.07.16 at 22h 12m 47s.xml">
+      <configuration name="VoteCounterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoteCounterTest - 2018.07.16 at 22h 13m 28s.xml">
+      <configuration name="VoteCounterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoteTransfererTest - 2018.07.16 at 22h 13m 44s.xml">
+      <configuration name="VoteTransfererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoteTransfererTest - 2018.07.16 at 22h 14m 15s.xml">
+      <configuration name="VoteTransfererTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VoteTransfererTest - 2018.07.16 at 22h 15m 28s.xml">
+      <configuration name="VoteTransfererTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1389" height="877" extended-state="0" />
+    <frame x="45" y="38" width="1292" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -418,18 +393,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32999283" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19815059" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22030237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16176471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,7 +418,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -764,71 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/QuotaCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/VoteCounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mill/election/Candidate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/VoteTransfererTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/FindWinnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CandidateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mill/election/Ballot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,16 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ReadFileToListSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/QuotaCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -872,10 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -892,10 +796,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteAnalyzer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mill/calculation/VoteTransferer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/FindWinnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CandidateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/QuotaCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/VoteCounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/VoteTransfererTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mill/election/Ballot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ReadFileToListSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

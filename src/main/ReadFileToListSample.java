@@ -58,26 +58,46 @@ public class ReadFileToListSample {
 
     /**
      * This method add vote preference for each candidate
+     * Please Enter Capital letters corresponding to the candidate followed by second, third, forth choice.
+     * A B C D
+     * Please don't keep a space after the last choice.
      */
     private static void arrangeVoteStructure() {
 
         System.out.println("Please enter the vote preference as a sequence: > ");
         Scanner in = new Scanner(System.in);
 
-        String voteKey = in.nextLine();
+       // while (true) {
 
-        // split by vote key letter
-        String votes[] = voteKey.split(" ");
+         //   System.out.println("Please enter the vote preference as a sequence: > ");
 
+            String voteKey = in.nextLine();
 
-        for (int x = 0; x < numberOfCandidates; x++) {
-            for (int y = x; y < votes.length; y++) {
-                candidateVotes.get(votes[y].charAt(0)).add(counter);
-                counter++;
+            /**
+            if(voteKey.contentEquals("tally")){
+                System.out.println("You have completed voting..");
                 break;
             }
-        }
+            */
+
+            // split the voteKey by letter. eg:- A
+
+            String votes[] = voteKey.split(" ");
+
+
+            for (int x = 0; x < numberOfCandidates; x++) {
+                for (int y = x; y < votes.length; y++) {
+
+                    //Add vote to each candidate's HashMap.
+
+                    candidateVotes.get(votes[y].charAt(0)).add(counter);
+                    counter++;
+                    break;
+                }
+            }
+       // }
     }
+
 
     /**
      * This method print vote preference for each candidate
