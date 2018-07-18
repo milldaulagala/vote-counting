@@ -1,5 +1,6 @@
 package main;
-
+import com.mill.election.*;
+import com.mill.calculation.*;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -47,6 +48,8 @@ public class ReadFileToListSample {
             // Iterate the result to print each line of the file.
             for (String line : contents) {
                 candidateNames.put(alphabet, line);
+
+                //create new ArrayList for each candidate.
                 candidateVotes.put(alphabet, new ArrayList());
                 numberOfCandidates++;
                 alphabet++;
