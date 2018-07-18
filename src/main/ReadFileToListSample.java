@@ -19,7 +19,7 @@ public class ReadFileToListSample {
 
     /**
      * This method initiates the voting system
-     *
+     * Please change the text file path to correct file location.
      * @param args main methods argument
      * @throws IOException
      */
